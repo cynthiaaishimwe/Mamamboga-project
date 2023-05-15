@@ -1,0 +1,123 @@
+body{
+  
+    overflow-y: hidden;
+    overflow-x: scroll;
+  
+  }
+  .head{
+      background-color: #1d3a02;
+  }
+  nav {
+    background-color: #fff;
+    height: 80px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0 90px;
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1);
+    border-radius: 15px;
+    color: #1d3a02;
+  }
+  nav .logo {
+    margin: 0;
+    padding: 0;
+    height: 80px;
+    margin-left: 10%;
+  }
+  nav .logo img {
+    height: 100%;
+  }
+  nav ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    align-items: center;
+  }
+  nav li {
+    margin-left: 20px;
+  }
+  nav li:first-child {
+    margin-left: 0;
+  }
+  nav a {
+    text-decoration: none;
+    color: #333;
+    font-weight: 600;
+    font-size: 16px;
+    transition: all 0.2s ease-in-out;
+  }
+  nav a:hover {
+    color: blue;
+  }
+  li a{
+      list-style: none;  
+  }
+  .head-mboga{
+      display: flex;
+      margin-left: 10%;
+      margin-bottom: 30%;
+  }
+  .about-it{
+      margin-top: 20%;
+      color: burlywood;
+      font-weight: 50%;
+  
+  }
+  .head-image{
+      margin-left: 30%;
+      border-radius: 30%;
+      height: 70%;
+      margin-top: 20%;
+  }
+  .subscribe-button{
+      padding: 15px 45px;
+      border-radius: 25px;
+      color: black;
+      background-color: rgb(119, 119, 5);
+      border: solid rgb(1, 41, 1);
+  }
+  .subscribe-button:hover{
+      background-color: rgb(73, 71, 71);
+  }
+  .message{
+      font-size: larger;
+  }
+  span{
+      color: rgb(1, 6, 10);
+      font-size: x-large;
+  }
+  .title{
+      font-size: xx-large;
+      font-weight: bolder;
+      color: aliceblue;
+  }
+  .navbar{
+      background-color: white;
+      color: rgb(1, 29, 1);
+  }
+  
+  .navbar a {
+      color: green;
+  }
+  
+  .navbar a:hover {
+      color: #f00;
+  }
+  .navbar{
+    background-color: white;
+    color: rgb(1, 29, 1);
+    font-weight: bolder;
+    padding: 20px 0;
+  }
+  
+  .navbar a {
+    color: rgb(1, 31, 1);
+    font-weight: bolder;
+    font-size: xx-large;
+  }
+  
+  .navbar a:hover {
+    color: #f00;
+  }
+  
